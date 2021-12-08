@@ -6,7 +6,7 @@
     "description":"Extensão que possibilita visualizar o número da função atual em ambientes com o novo menu.",
     "content_scripts": [
         {
-            "matches": ["https://*.ecargoasp.com.br/"],
+            "matches": ["<all_urls>"],
             "css": ["style.css"],
             "js": ["content.js"]
         }
