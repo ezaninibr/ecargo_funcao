@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "e-Cargo Função",
+    "version": "0.0.1",
+    "author":"Zanini",
+    "description":"Extensão que possibilita visualizar o número da função atual em ambientes com o novo menu.",
+    "content_scripts": [
+        {
+            "matches": ["https://*.ecargoasp.com.br/"],
+            "css": ["style.css"],
+            "js": ["content.js"]
+        }
+    ]
+}
